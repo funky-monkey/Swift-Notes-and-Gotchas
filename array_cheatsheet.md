@@ -70,12 +70,14 @@ Uses higher-level function to enumerate a collection
 	
 
 ####for-in with a tuple
-Uses the higher-level `enumerate()` function to iterate through a collection
+Uses the higher-level `enumerate()` function to iterate through a collection. 
 		
 	for (index, number) in enumerate(someArray)
 	{
 	    println("Fibonacci Number \(index):  \(number)")
 	}
 
+===
 
+More on `enumerate()` and other sequence and collection functions [Swift Standard Libraries: Sequence and Collection Functions](http://iosdeveloperzone.com/2014/10/15/swift-standard-libraries-sequence-and-collection-functions/)
 
