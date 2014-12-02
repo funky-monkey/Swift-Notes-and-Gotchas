@@ -1,5 +1,5 @@
 #Array Cheatsheet
-All the things in Array are and ordered list and of single type. So an array can only hold one type.
+An Array is an ordered list and strict typed. So an array can only hold one type.
 
 ###Creating of new Array
 | Code  | What does it do?  |
