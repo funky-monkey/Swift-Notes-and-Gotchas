@@ -12,6 +12,14 @@ An Array is an ordered list and strict typed. So an array can only hold one type
 | `var collection = Array<Int>()`  | Create new Array   |
 | `var collection = [Int](count: 3 repeatedValue: 42)`  | Creates an array with 3 times 42 in it  |
 
+###Mutability / Immutability
+By using `var` or `let` you make it mutable and immutable respectivly.
+You can still do stuff like:
+
+`let letters = ["A", "B", "C"]` Creates a immutable array
+
+`var mutableLetters = letters` Create a mutable copy of `letters`
+
 ###Retrieving element from Array
 | Code  | What does it do?  |
 |-------|-------------------|

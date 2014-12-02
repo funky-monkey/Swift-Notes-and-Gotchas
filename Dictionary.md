@@ -11,6 +11,14 @@ A Dictionary is an unordered list, with strict typing. Trying to put a different
 | `var collection:Dictionary<String, Int> = [:]` | Creating a new Dictionary  |
 | `var collection: [String, Int] = [:]` | Creating a new Dictionary  |
 
+###Mutability / Immutability
+By using `var` or `let` you make it mutable and immutable respectivly.
+You can still do stuff like:
+
+`let letterCiphers = ["A":1, "B": 2, "C":4]` Creates a immutable dictionary
+
+`var mutableLetters = letterCiphers` Create a mutable copy of `letterCiphers`
+
 ###Creating of new Dictionary with data
 
 | Code  | What does it do?  |
