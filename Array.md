@@ -1,4 +1,5 @@
 #Array Cheatsheet
+All the things in Array are and ordered list and of single type. So an array can only hold one type.
 
 ###Creating of new Array
 | Code  | What does it do?  |
@@ -7,6 +8,7 @@
 | `var collection = [1, 3, 7, 12, 40]`  | Shorthand for creating an Array. **Must be same type**  |
 | `var collection = [Int]()`  | Create new Array  |
 | `var collection:Array<Int> = []`  | Create new Array  |
+| `var collection:[String] = []`  | Create new Array  |
 | `var collection = Array<Int>()`  | Create new Array   |
 | `var collection = [Int](count: 3 repeatedValue: 42)`  | Creates an array with 3 times 42 in it  |
 
@@ -41,17 +43,26 @@
 ###Looping over Array
 There are different methods to loop over a Array. Here are some:
 
+####for 
+Standard 'for loop'. Apple' Swift book talks about the **++i** (this will first increment, then add to i)
+
+	for var i = 0; i < 99; ++i
+	{
+	    println("I've got \(i) problems but Swift aint one!")
+	}
+
 ####for-in with range
+	// Same thing as previous loop
 	for i in 0..<9
 	{
-	    println(i)
+	    println("I've got \(i) problems but Swift aint one!")
 	}
 	
 ####for-in
 		
-	let primeNumbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31]
+	let lostNumbers = [4, 8, 15, 16, 23, 42]
  
-	for number in primeNumbers
+	for number in lostNumbers
 	{
 	    println("\(number)")
 	}
@@ -68,12 +79,14 @@ There are different methods to loop over a Array. Here are some:
 	}
 	
 
-####for-in with a tuple
+####for-in with tuple
+(Brainfart: Is it 'a tuple' or just 'tuple'? And since it has more than one value - does that make it 'tuples'? So is then the singular form always pronounced in plural? )
+
 Uses the higher-level `enumerate()` function to iterate through a collection. 
 		
-	for (index, number) in enumerate(someArray)
+	for (index, number) in enumerate(lostNumbers)
 	{
-	    println("Fibonacci Number \(index):  \(number)")
+	    println("LOST number sequence  \(index):  \(number)")
 	}
 
 ===

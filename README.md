@@ -4,4 +4,6 @@ This will be a collection of all the stuff I encounter while writing Swift, stuf
 
 [Arrays](Array.md)
 
-[Gotchas](Gotchas.md)
+[Dictionary](Dictionary.md)
+
+#####[Gotchas](Gotchas.md)
