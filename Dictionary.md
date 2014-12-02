@@ -50,9 +50,15 @@ A Dictionary is an unordered list, with strict typing. Trying to put a different
 | `collection.values`  | Returns a collection of values (Not an Array!) |
 
 ###Get information from Dictionary
+Uses the higher-level `dump()` function to 'dump' contents of collection in the console. 
+
 | Code  | What does it do?  |
 |-------|-------------------|
-| `dump(collection)`  | Prints all contents from Dictionary  |
+| `dump(collection)`  | Prints all contents from Dictionary, is like print/println for collections  |
+
+More on `dump()` and other sequence and collection functions [Swift Standard Libraries: Sequence and Collection Functions](http://iosdeveloperzone.com/2014/10/15/swift-standard-libraries-sequence-and-collection-functions/)
+
+
 
 ###Looping over Dictionary
 
