@@ -13,7 +13,7 @@ An Array is an ordered list and strict typed. So an array can only hold one type
 | `var collection = [Int](count: 3 repeatedValue: 42)`  | Creates an array with 3 times 42 in it  |
 
 ###Mutability / Immutability
-By using `var` or `let` you make it mutable and immutable respectivly.
+By using `var` or `let` you make it mutable and immutable respectively.
 You can still do stuff like:
 
 `let letters = ["A", "B", "C"]` Creates a immutable array
@@ -90,9 +90,9 @@ Standard 'for loop'. Apple' Swift book talks about the **++i** (this will first 
 ####for-in with tuple
 (Brainfart: Is it 'a tuple' or just 'tuple'? And since it has more than one value - does that make it 'tuples'? So is then the singular form always pronounced in plural? )
 
-Uses the higher-level `enumerate()` function to iterate through a collection. 
+Uses the `enumerate()` function from Array to iterate through a collection. 
 		
-	for (index, number) in enumerate(lostNumbers)
+	for (index, number) in lostNumbers.enumerate()
 	{
 	    println("LOST number sequence  \(index):  \(number)")
 	}
