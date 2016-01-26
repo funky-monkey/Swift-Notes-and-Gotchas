@@ -51,13 +51,14 @@ You can still do stuff like:
 ###Looping over Array
 There are different methods to loop over a Array. Here are some:
 
-####for 
+####for (WILL BE DEPRECATED IN SWIFT3)
 Standard 'for loop'. Apple' Swift book talks about the **++i** (this will first increment, then add to i)
 
 	for var i = 0; i < 99; ++i
 	{
 	    println("I've got \(i) problems but Swift aint one!")
 	}
+
 
 ####for-in with range
 	// Same thing as previous loop
